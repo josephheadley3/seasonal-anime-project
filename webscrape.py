@@ -90,7 +90,7 @@ for match in soup.find_all('div', class_='js-seasonal-anime'):
 
 # Establishing database connection
 conn = psycopg2.connect(
-   database="postgres", user='postgres', password='Boston2021', host='localhost', port= '5432', options="-c search_path=data_analytics"
+   database="postgres", user='postgres', password='12345', host='localhost', port= '5432', options="-c search_path=data_analytics"
 )
 
 # Creating a cursor object using the cursor() method
